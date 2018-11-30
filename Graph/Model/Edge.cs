@@ -6,10 +6,10 @@
 		public Node To { get; set; }
 		public int Weight { get; set; }
 
-		public Edge(Node _from, Node to, int weight = 1)
+		public Edge(Node _from, Node _to, int weight = 1)
 		{
 			From = _from;
-			To = to;
+			To = _to;
 			Weight = weight;
 		}
 	}
