@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Graph.Helpers;
 
 namespace Graph
 {
@@ -18,7 +19,19 @@ namespace Graph
 			var edge2 = new Edge(g.GNodes[0], g.GNodes[3]);
 			g.GEdges.Add(edge);
 			g.GEdges.Add(edge2);
+
+			var oG = g.GetCopy();
+			g.DelegateCreation(Delegates);
+
+			var diff = ReferenceEquals(g, oG);
 			Console.ReadLine();
 		}
+
+		private static void Delegates(IGraphs obj)
+		{
+			throw new NotImplementedException();
+		}
+
+		
 	}
 }

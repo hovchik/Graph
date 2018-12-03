@@ -43,10 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Helpers\GraphExtensions.cs" />
     <Compile Include="Model\Edge.cs" />
     <Compile Include="Model\Graphs.cs" />
     <Compile Include="Interfaces\IGraphFull.cs" />
     <Compile Include="Interfaces\IGraphs.cs" />
+    <Compile Include="Interfaces\IEdge.cs" />
+    <Compile Include="Interfaces\INode.cs" />
     <Compile Include="Model\Node.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

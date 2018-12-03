@@ -1,6 +1,6 @@
 ﻿namespace Graph
 {
-	public class Edge
+	public class Edge:IEdge
 	{
 		public Node From { get; set; }
 		public Node To { get; set; }

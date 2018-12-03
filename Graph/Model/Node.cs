@@ -1,6 +1,6 @@
 ﻿namespace Graph
 {
-	public class Node
+	public class Node:INode
 	{
 		public int Id { get; set; }
 		public string Name { get; set; }
