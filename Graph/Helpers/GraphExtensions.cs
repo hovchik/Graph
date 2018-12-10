@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Graph.Interfaces;
+using System;
 
 namespace Graph.Helpers
 {
@@ -24,7 +21,7 @@ namespace Graph.Helpers
 
 		public static void DelegateCreation(this IGraphs g, Action<IGraphs> delegates)
 		{
-			 delegates(g);
+			delegates(g);
 		}
 	}
 }

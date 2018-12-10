@@ -1,4 +1,4 @@
-﻿namespace Graph
+﻿namespace Graph.Interfaces
 {
 	public interface IEdge
 	{

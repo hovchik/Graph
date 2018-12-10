@@ -1,4 +1,6 @@
-﻿namespace Graph
+﻿using Graph.Interfaces;
+
+namespace Graph
 {
 	public class Node:INode
 	{
